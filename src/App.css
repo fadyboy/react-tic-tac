@@ -1,0 +1,36 @@
+.board {
+  padding: 20px;
+  display: flex;
+  width: 600px;
+  height: 600px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.square {
+  width: 200px;
+  height: 200px;
+  box-sizing: border-box;
+  border: 5px solid black;
+  font-size: 5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.square:hover {
+  cursor: pointer;
+  background-color: #80cd92;
+}
+
+.results {
+  padding: 20px;
+  font-size: 3em;
+  color: #80cd92;
+}
+
+.btn {
+  padding: 5px;
+  color: #80cd92;
+  font-weight: bold;
+  border-radius: 5px;
+}
